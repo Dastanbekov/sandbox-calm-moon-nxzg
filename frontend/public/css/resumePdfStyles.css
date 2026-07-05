@@ -1,0 +1,116 @@
+.subcategory {
+  /*page-break-inside: avoid !important;*/
+}
+body {
+  font-family: DejaVu Serif !important;
+  font-size: 11px;
+}
+.onerezume .img-wrapper {
+  width: 165px !important;
+  height: 225px !important;
+  overflow: hidden;
+  margin-right: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+.onerezume .img-wrapper img{
+  width: 100%;
+  height: 225px;
+}
+
+.onerezume .img-wrapper.no-profile-photo{
+  display: none !important;
+}
+
+.onerezume .table {
+  display: inline-block;
+  height: 0 !important;
+}
+.onerezume .table.no-profile-photo{
+  display: inline-block;
+  height: 225px !important;
+}
+
+
+.onerezume .table h1 {
+  margin: 0 0 10px 0;
+  font-size: 20px !important;
+  color: #000;
+  width: 80%;
+}
+.onerezume .table .rwd-table {
+  margin-top: 10px;
+}
+.onerezume .table .rwd-table tr td:first-child {
+  width: 130px;
+}
+.onerezume .category {
+  padding-top: 20px !important;
+}
+.onerezume h2 {
+  font-size: 16px !important;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  border-bottom: 3px solid #434749;
+}
+.onerezume .category .subcategory,
+.onerezume .category2 .subcategory,
+.onerezume .category2e .subcategory,
+.onerezume .category3 .subcategory {
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  /*border-top: 1px solid #e4b9c0;*/
+  margin-top: 10px !important;
+}
+.onerezume .category .subcategory:first-child,
+.onerezume .category2 .subcategory:first-child,
+.onerezume .category2e .subcategory:first-child,
+.onerezume .category3 .subcategory:first-child {
+  border: none;
+}
+.onerezume .category .about p:first-child  {
+  margin-bottom: 10px !important;
+}
+.onerezume  .subcategory .left {
+  float: left;
+  overflow: hidden;
+  width: 100% !important;
+}
+.onerezume .subcategory .right {
+  float: left;
+  overflow: hidden;
+  width: 100% !important;
+}
+.onerezume .category .subcategory .date{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.onerezume .category .subcategory .date span.w-text{
+  width: auto;
+  padding-left: 10px;
+}
+.onerezume .subcategory .right p {
+  margin: 0;
+}
+.onerezume  .subcategory h3, .onerezume  .subcategory h4 {
+  font-weight: bold;
+  font-size: 11px;
+  margin: 0;
+}
+.onerezume .category3 .subcategory .file a.doc {
+  display: block;
+}
+
+.onerezume .category2 .subcategory{
+  /*border-bottom: 2px solid #eff3f5;*/
+}
+
+.onerezume .category .subcategory .date span.w-date{
+  font-weight: bold;
+  color: #434749;
+  font-family: "OpenSansSemiBold";
+  margin-top: 0;
+}

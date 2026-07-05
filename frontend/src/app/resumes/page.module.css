@@ -1,0 +1,336 @@
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  gap: 32px;
+}
+
+.authWarning {
+  width: 100%;
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 40px;
+  border-radius: var(--radius);
+  border: 1px solid hsl(var(--border));
+  background-color: hsl(var(--card));
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  box-shadow: var(--shadow-md);
+}
+
+.authWarningIcon {
+  width: 64px;
+  height: 64px;
+  color: hsl(var(--primary));
+  background-color: hsla(262, 83%, 58%, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+}
+
+.authWarningTitle {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: hsl(var(--foreground));
+}
+
+.authWarningText {
+  font-size: 1rem;
+  color: hsl(var(--muted-foreground));
+  line-height: 1.5;
+}
+
+.authWarningButtons {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px 24px;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.btnPrimary {
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border: none;
+}
+
+.btnPrimary:hover {
+  background-color: hsla(262, 83%, 58%, 0.9);
+}
+
+.btnSecondary {
+  background-color: hsl(var(--secondary));
+  color: hsl(var(--secondary-foreground));
+  border: 1px solid hsl(var(--border));
+}
+
+.btnSecondary:hover {
+  background-color: hsl(var(--border));
+}
+
+/* Sidebar Filters */
+.filtersSidebar {
+  width: 300px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  border-radius: var(--radius);
+  border: 1px solid hsl(var(--border));
+  background-color: hsl(var(--card));
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+}
+
+.filterTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.filterGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filterGroup label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: hsl(var(--muted-foreground));
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 0.5rem;
+  border: 1px solid hsl(var(--border));
+  background-color: hsl(var(--background));
+  outline: none;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease;
+}
+
+.input:focus,
+.select:focus {
+  border-color: hsl(var(--primary));
+}
+
+.resetButton {
+  background-color: hsl(var(--secondary));
+  color: hsl(var(--secondary-foreground));
+  border: 1px solid hsl(var(--border));
+  padding: 12px;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.resetButton:hover {
+  background-color: hsl(var(--border));
+}
+
+/* Main Listings Area */
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resultsCount {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: hsl(var(--muted-foreground));
+}
+
+.resultsCount span {
+  color: hsl(var(--foreground));
+}
+
+.listings {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.resumeCard {
+  border-radius: var(--radius);
+  border: 1px solid hsl(var(--border));
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: hsl(var(--card));
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.resumeCard:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: hsla(262, 83%, 58%, 0.3);
+}
+
+.fixedBadge {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: hsla(262, 83%, 58%, 0.1);
+  color: hsl(var(--primary));
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  border: 1px solid hsla(262, 83%, 58%, 0.2);
+}
+
+.hotBadge {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 9999px;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 80%;
+}
+
+.objective {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: hsl(var(--foreground));
+}
+
+.candidateName {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: hsl(var(--muted-foreground));
+}
+
+.salary {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: hsl(var(--primary));
+}
+
+.metaRow {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: hsl(var(--muted-foreground));
+}
+
+.metaBadge {
+  background-color: hsl(var(--secondary));
+  color: hsl(var(--secondary-foreground));
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.pageButton {
+  background-color: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  color: hsl(var(--foreground));
+  padding: 8px 16px;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pageButton:hover:not(:disabled) {
+  background-color: hsl(var(--secondary));
+}
+
+.pageButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pageInfo {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: hsl(var(--muted-foreground));
+}
+
+/* Fallback Warning banner */
+.warningBanner {
+  background-color: hsla(38, 92%, 50%, 0.1);
+  border: 1px solid hsla(38, 92%, 50%, 0.3);
+  color: #b45309;
+  border-radius: 0.5rem;
+  padding: 16px;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.warningBannerTitle {
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    padding: 24px 16px;
+  }
+
+  .filtersSidebar {
+    width: 100%;
+    position: static;
+  }
+}

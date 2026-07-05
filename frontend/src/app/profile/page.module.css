@@ -1,0 +1,518 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.warningBanner {
+  background-color: hsla(38, 92%, 50%, 0.1);
+  border: 1px solid hsla(38, 92%, 50%, 0.3);
+  color: #b45309;
+  border-radius: var(--radius);
+  padding: 16px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.warningBannerTitle {
+  font-weight: 700;
+}
+
+.toast {
+  padding: 12px 16px;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toastSuccess {
+  background-color: hsla(142, 76%, 36%, 0.1);
+  border: 1px solid hsla(142, 76%, 36%, 0.2);
+  color: #166534;
+}
+
+.toastError {
+  background-color: hsla(0, 84%, 60%, 0.1);
+  border: 1px solid hsla(0, 84%, 60%, 0.2);
+  color: #991b1b;
+}
+
+.profileLayout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 32px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.userCard {
+  background-color: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.userAvatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: hsl(var(--secondary));
+  color: hsl(var(--secondary-foreground));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: 2px solid hsl(var(--border));
+}
+
+.userName {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: hsl(var(--foreground));
+}
+
+.userEmail {
+  font-size: 0.85rem;
+  color: hsl(var(--muted-foreground));
+  word-break: break-all;
+}
+
+/* Balance Panel */
+.balancePanel {
+  background-color: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.balanceTitle {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: hsl(var(--muted-foreground));
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.balanceVal {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: hsl(var(--primary));
+}
+
+.billNum {
+  font-size: 0.8rem;
+  color: hsl(var(--muted-foreground));
+}
+
+.btnTopup {
+  width: 100%;
+  padding: 10px;
+  background-color: hsl(var(--secondary));
+  color: hsl(var(--secondary-foreground));
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.btnTopup:hover {
+  background-color: hsl(var(--border));
+}
+
+/* Navigation tabs */
+.navTabs {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  padding: 12px;
+}
+
+.tabLink {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 0.5rem;
+  color: hsl(var(--muted-foreground));
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tabLinkActive {
+  background-color: hsla(262, 83%, 58%, 0.1);
+  color: hsl(var(--primary));
+}
+
+.tabLink:hover:not(.tabLinkActive) {
+  background-color: hsl(var(--secondary));
+  color: hsl(var(--foreground));
+}
+
+/* Content Area */
+.mainContent {
+  background-color: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tabTitle {
+  font-size: 1.5rem;
+  font-weight: 800;
+  border-bottom: 1px solid hsl(var(--border));
+  padding-bottom: 16px;
+  margin-bottom: 8px;
+}
+
+/* Sub-tabs for vacancies list */
+.subTabs {
+  display: flex;
+  gap: 12px;
+  border-bottom: 1px solid hsl(var(--border));
+  padding-bottom: 1px;
+}
+
+.subTab {
+  padding: 10px 16px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: hsl(var(--muted-foreground));
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.subTabActive {
+  color: hsl(var(--primary));
+}
+
+.subTabActive::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: hsl(var(--primary));
+}
+
+/* Cards lists */
+.cardsList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.itemCard {
+  background-color: hsl(var(--background));
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.75rem;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.itemCard:hover {
+  border-color: hsl(var(--muted-foreground));
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.itemTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: hsl(var(--foreground));
+}
+
+.itemMeta {
+  font-size: 0.85rem;
+  color: hsl(var(--muted-foreground));
+  display: flex;
+  gap: 12px;
+}
+
+.itemActions {
+  display: flex;
+  gap: 8px;
+}
+
+.btnAction {
+  padding: 8px 14px;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  border: 1px solid hsl(var(--border));
+  background-color: hsl(var(--card));
+  color: hsl(var(--foreground));
+  transition: all 0.2s ease;
+}
+
+.btnAction:hover {
+  background-color: hsl(var(--secondary));
+}
+
+.btnActionPrimary {
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border: none;
+}
+
+.btnActionPrimary:hover {
+  background-color: hsla(262, 83%, 58%, 0.9);
+}
+
+.btnCreate {
+  align-self: flex-start;
+  padding: 10px 20px;
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btnCreate:hover {
+  background-color: hsla(262, 83%, 58%, 0.9);
+}
+
+/* Empty states */
+.emptyState {
+  text-align: center;
+  padding: 48px 0;
+  color: hsl(var(--muted-foreground));
+  font-size: 1rem;
+}
+
+/* Settings Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formGroup label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+}
+
+.input,
+.select,
+.textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 0.5rem;
+  border: 1px solid hsl(var(--border));
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  outline: none;
+  font-size: 0.95rem;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  border-color: hsl(var(--primary));
+}
+
+/* Modals */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 24px;
+}
+
+.modal {
+  background-color: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  width: 100%;
+  max-width: 500px;
+  padding: 32px;
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: hsl(var(--muted-foreground));
+}
+
+.modalActions {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.btnPrimary {
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border: none;
+}
+
+.btnPrimary:hover {
+  background-color: hsla(262, 83%, 58%, 0.9);
+}
+
+.btnSecondary {
+  background-color: hsl(var(--secondary));
+  color: hsl(var(--secondary-foreground));
+  border: 1px solid hsl(var(--border));
+}
+
+.btnSecondary:hover {
+  background-color: hsl(var(--border));
+}
+
+/* History logs list */
+.historyLogs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.historyItem {
+  background-color: hsl(var(--background));
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.5rem;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.historyDesc {
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  font-size: 0.95rem;
+}
+
+.historyDate {
+  color: hsl(var(--muted-foreground));
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
+.amount {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.amountPositive {
+  color: #166534;
+}
+
+.amountNegative {
+  color: #991b1b;
+}
+
+@media (max-width: 900px) {
+  .profileLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .mainContent {
+    padding: 24px;
+  }
+}

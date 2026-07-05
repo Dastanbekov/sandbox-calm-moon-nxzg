@@ -1,0 +1,45 @@
+.subcategory {
+  page-break-inside: avoid !important;
+}
+body {
+  font-family: DejaVu Serif !important;
+  font-size: 11px;
+}
+.smallvakansia h1 {
+  margin: 0 0 10px 0;
+  font-size: 20px !important;
+  color: #000;
+}
+.smallvakansia .manager table.rwd-table tr td:first-child {
+  width: 130px;
+}
+.smallvakansia .b-show-company-info .img-wrapper {
+  text-align: center !important;
+}
+.smallvakansia .b-show-company-info img {
+  width: 70px !important;
+  height: 70px !important;
+}
+.smallvakansia .b-show-company-info h2 {
+  font-size: 15px !important;
+  text-align: center !important;
+  border-bottom: 1px solid #e4b9c0;
+}
+.smallvakansia .iformation h3 {
+  margin-top: 15px;
+}
+.smallvakansia h2, .smallvakansia h3 {
+  font-size: 17px !important;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-bottom: 3px solid #434749;
+}
+.smallvakansia h4 {
+  font-weight: bold;
+  font-size: 11px!important;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-bottom: 1px solid #e4b9c0;
+}

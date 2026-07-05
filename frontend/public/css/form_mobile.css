@@ -1,0 +1,705 @@
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #vacancy-update .contentform.col-md-9{
+        padding-right: 30px;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .location-info{
+        margin-left: 0 !important;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group input{
+        width: 100%;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group select.form-control{
+        width: 100%;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group input#cashs{
+        width: calc((100% - 167px)/3);
+
+    }
+    #vacancy-update input.form-control.smalldate{
+        width: calc(100% - 230px) !important;
+    }
+
+    #expires_at_icon{
+        right: 0;
+    }
+
+    #vacancy-update .cke_chrome{
+        width: calc(100% - 2px) !important;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group .label--checkbox{
+        width: 100%;
+        float: left;
+        padding-left: 5px;
+    }
+    #vacancy-update .contentform .checks .card{
+        overflow: inherit;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group .checks .card .radio{
+        width: 100% !important;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group .checks .card .radio .inner{
+        left: 6px;
+    }
+    #vacancy-update  .contentform.col-md-9 .big .form-group .checks .card .radio .outer{
+        margin-left: 0;
+    }
+    #vacancy-update .form-group.b-form-file_upload{
+        padding-left: 26px !important;
+    }
+    #vacancy-update .contentform.col-md-9 .big .form-group input#lastforms{
+        width: calc(100% - 26px );
+
+    }
+
+    .rezumenew .col-md-9 .big{
+        width: 100%;
+    }
+    .rezumenew .col-md-9 .big .form-group#bottomline select.form-control{
+        width: calc(100% - 200px) !important;
+
+    }
+    .rezumenew .col-md-9 .big .form-group input{
+        width: calc(100% - 200px) !important;
+    }
+
+    .rezumenew .col-md-9 .big .form-group#datetimepicker5 input{
+        width: calc(100% - 241px) !important;
+
+    }
+    #date_of_birth_icon{
+        margin-right: 2px;
+    }
+
+
+    .rezumenew .contentform.col-md-9 .big .form-group select.form-control{
+        width: calc(100% - 200px);
+        background-position: right 10px center;
+
+    }
+    .rezumenew .contentformtwo.col-md-9 .big .form-group select.form-control{
+        width: 20%;
+    }
+    .rezumenew .col-md-9 .big .form-group label#back{
+        width: calc(80% - 220px) !important;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group label{
+        width: 195px;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group select.form-control{
+        width: calc(100% - 200px) !important;
+        margin-left: 0;
+        margin-right: 0;
+        background-position: right 10px center;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group .coversq .dynamic_container{
+        width: calc(100% - 200px) !important;
+        margin-left: 0;
+        margin-right: 4px;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group .dynamic_block select.form-control{
+        width: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .rezumenew .contentformtrees.col-md-9 .big .form-group select.form-control{
+        width: calc(100% - 200px) !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .rezumenew .contentformtrees.col-md-9 div#datetimepicker5{
+        width: calc(100% - 200px);
+    }
+    .rezumenew .contentformtrees.col-md-9 .big .form-group input#date{
+        width: calc(100% - 35px) !important;
+    }
+    .rezumenew .contentformtrees.col-md-9 .big .form-group textarea{
+        width: 100%;
+        max-width: calc(100% - 200px);
+    }
+    .rezumenew .contentformfour.col-md-9 .big .form-group.select-city select.form-control{
+        width: calc(100% - 200px) !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .rezumenew .contentformfour.col-md-9 .big .form-group select.form-control{
+        background-position: right 10px center;
+        width: calc(100% - 200px) !important;
+    }
+    .rezumenew .contentformtrees.col-md-9 .big .form-group select.form-control{
+        background-position: right 10px center;
+
+    }
+
+    .rezumenew .contentformfour.col-md-9 .big .form-group input#cashe{
+        width: calc(100% - 334px) !important;
+    }
+
+    #currency_id{
+        background-position: right 10px center;
+        width: 130px !important;
+    }
+    .rezumenew .contentformfive.col-md-9 .big .form-group textarea{
+        width: 100%;
+        max-width: calc(100% - 200px);
+    }
+    .rezumenew .contentformfive.col-md-9 .big .form-group.about-text input{
+        width: 95% !important;
+    }
+    .rezumenew .contentformtrees.col-md-9{
+        padding-bottom: 47px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .vacansiasmall.create-edit-page .container{
+        width: calc(100% - 60px);
+    }
+
+    #vacancy-update .formcontainer .col-md-3{
+        max-width: 300px;
+    }
+    #vacancy-update .contentform.col-md-9 .big .location-info{
+        margin-left: 0 !important;
+    }
+
+    .vacansiasmall .contentform.col-md-9 .big .form-group select.form-control{
+        width: 100%;
+    }
+    .vacansiasmall .contentform.col-md-9 .big .form-group input{
+        width: 100%;
+    }
+
+    .vacansiasmall .contentform.col-md-9 .big .form-group input#cashs{
+        width: calc(33.33% - 3px);
+        margin-right: 0;
+        padding-right: 0;
+
+    }
+
+    .vacansiasmall .contentform.col-md-9 .big .form-group select.form-control#cashs{
+        width: calc(33.33% - 3px);
+        margin-right: 0;
+        padding-right: 0;
+
+    }
+
+    input.form-control.smalldate{
+        width: calc(100% - 45px) !important;
+    }
+
+
+    #expires_at_icon{
+        right: 0;
+        float: right;
+        margin-right: 5px;
+        position: inherit;
+    }
+
+    #vacancy-update .cke_chrome{
+        width: calc(100% - 2px) !important;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group .label--checkbox{
+        width: 100%;
+        float: left;
+        padding-left: 5px;
+    }
+    #vacancy-update .contentform .checks .card{
+        overflow: inherit;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group .checks .card .radio{
+        width: 100% !important;
+        padding-right: 0;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group .checks .card .radio .inner{
+        left: 6px;
+    }
+    #vacancy-update  .contentform.col-md-9 .big .form-group .checks .card .radio .outer{
+        margin-left: 0;
+    }
+    #vacancy-update .form-group.b-form-file_upload{
+        padding-left: 0px !important;
+    }
+    #vacancy-update .contentform.col-md-9 .big .form-group input#lastforms{
+        width: calc(100% - 0px );
+
+    }
+
+    .vacansiasmall .contentform.col-md-9 .bottomline input#blues{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .vacansiasmall .contentform.col-md-9 .big .form-group label{
+        width: 100%;
+    }
+
+    #vacancy-update .expires-info{
+        margin-left: 0 !important;
+    }
+    .form-group.text-editor .help-block{
+        float: initial;
+        padding-top: 0;
+
+    }
+
+
+    .formcontainertwo{
+        display: flex;
+    }
+    .formcontainertree{
+        display: flex;
+    }
+    .formcontainertrees{
+        display: flex;
+    }
+    .formcontainerfour{
+        display: flex;
+    }
+    .formcontainerfive{
+        display: flex;
+    }
+
+
+
+
+
+    .rezumenew .formcontainer .col-md-3{
+        max-width: 250px;
+    }
+    .rezumenew .formcontainertwo .col-md-3{
+        max-width: 250px;
+    }
+    .rezumenew .formcontainertree .col-md-3{
+        max-width: 250px;
+    }
+    .rezumenew .formcontainertrees .col-md-3{
+        max-width: 250px;
+    }
+    .rezumenew .formcontainerfour .col-md-3{
+        max-width: 250px;
+    }
+    .rezumenew .formcontainerfive .col-md-3{
+        max-width: 250px;
+    }
+
+
+    .dynamic_container.education-block .dynamic_block label{
+        width: 100% !important;
+    }
+
+    .rezumenew .col-md-9 .big{
+        width: 100%;
+    }
+    .rezumenew .col-md-9 .big .form-group#bottomline select.form-control{
+        width: calc(100% - 5px) !important;
+
+    }
+    .rezumenew .col-md-9 .big .form-group input{
+        width: calc(100% - 5px) !important;
+    }
+
+    .rezumenew .col-md-9 .big .form-group#datetimepicker5 input{
+        width: calc(100% - 241px) !important;
+    }
+
+    #date_of_birth_icon{
+        margin-right: 2px;
+    }
+
+
+    .rezumenew .contentform.col-md-9 .big .form-group select.form-control{
+        width: calc(100% - 5px);
+        background-position: right 10px center;
+    }
+    .rezumenew .contentformtwo.col-md-9 .big .form-group select.form-control{
+        width: 30%;
+    }
+    .rezumenew .col-md-9 .big .form-group label#back{
+        width: calc(70% - 20px) !important;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group label{
+        width: 195px;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group select.form-control{
+        width: calc(100% - 200px) !important;
+        margin-left: 0;
+        margin-right: 0;
+        background-position: right 10px center;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group .coversq .dynamic_container{
+        width: calc(100% - 200px) !important;
+        margin-left: 0;
+        margin-right: 4px;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group .dynamic_block select.form-control{
+        width: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .rezumenew .contentformtrees.col-md-9 .big .form-group select.form-control{
+        width: calc(100% - 200px) !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .rezumenew .contentformtrees.col-md-9 div#datetimepicker5{
+        width: calc(100% - 200px);
+    }
+    .rezumenew .contentformtrees.col-md-9 .big .form-group input#date{
+        width: calc(100% - 35px) !important;
+    }
+    .rezumenew .contentformtrees.col-md-9 .big .form-group textarea{
+        width: 100%;
+        max-width: calc(100% - 200px);
+    }
+    .rezumenew .contentformfour.col-md-9 .big .form-group.select-city select.form-control{
+        width: calc(100% - 200px) !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .rezumenew .contentformfour.col-md-9 .big .form-group select.form-control{
+        background-position: right 10px center;
+        width: calc(100% - 200px) !important;
+    }
+    .rezumenew .contentformtrees.col-md-9 .big .form-group select.form-control{
+        background-position: right 10px center;
+
+    }
+
+    .rezumenew .contentformfour.col-md-9 .big .form-group input#cashe{
+        width: calc(100% - 334px) !important;
+        padding-top: 5px;
+    }
+
+    #currency_id{
+        background-position: right 10px center;
+        width: 130px !important;
+    }
+    .rezumenew .contentformfive.col-md-9 .big .form-group textarea{
+        width: 100%;
+        max-width: calc(100% - 200px);
+    }
+
+
+    .rezumenew .contentformtrees.col-md-9{
+        padding-bottom: 47px;
+    }
+    .rezumenew .contentformfive.col-md-9 .bottomline input#blues{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .rezumenew .contentformfive .form-group.about-text .file-name{
+        width: 100% !important;
+    }
+    .rezumenew .contentformfive .form-group.about-text .file-name input{
+        width: 100% !important;
+    }
+
+    .rezumenew .contentformfive .form-group.about-text .file-select{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 767px){
+    .vacansiasmall.create-edit-page .container{
+        width: calc(100% - 60px);
+    }
+
+    #vacancy-update .formcontainer .col-md-3{
+        display: none;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .location-info{
+        margin-left: 0 !important;
+    }
+
+    .vacansiasmall .contentform.col-md-9 .big .form-group select.form-control{
+        width: 100%;
+    }
+    .vacansiasmall .contentform.col-md-9 .big .form-group input{
+        width: 100%;
+    }
+
+    .vacansiasmall .contentform.col-md-9 .big .form-group input#cashs{
+        width: calc(33.33% - 3px);
+        margin-right: 0;
+        padding-right: 0;
+
+    }
+
+    .vacansiasmall .contentform.col-md-9 .big .form-group select.form-control#cashs{
+        width: calc(33.33% - 3px);
+        margin-right: 0;
+        padding-right: 0;
+
+    }
+
+    input.form-control.smalldate{
+        width: calc(100% - 45px) !important;
+    }
+
+
+    #expires_at_icon{
+        right: 0;
+        float: right;
+        margin-right: 5px;
+        position: inherit;
+    }
+
+    #vacancy-update .cke_chrome{
+        width: calc(100% - 2px) !important;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group .label--checkbox{
+        width: 100%;
+        float: left;
+        padding-left: 5px;
+    }
+    #vacancy-update .contentform .checks .card{
+        overflow: inherit;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group .checks .card .radio{
+        width: 100% !important;
+        padding-right: 0;
+    }
+
+    #vacancy-update .contentform.col-md-9 .big .form-group .checks .card .radio .inner{
+        left: 6px;
+    }
+    #vacancy-update  .contentform.col-md-9 .big .form-group .checks .card .radio .outer{
+        margin-left: 0;
+    }
+    #vacancy-update .form-group.b-form-file_upload{
+        padding-left: 0px !important;
+    }
+    #vacancy-update .contentform.col-md-9 .big .form-group input#lastforms{
+        width: calc(100% - 0px );
+
+    }
+
+    .vacansiasmall .contentform.col-md-9 .bottomline input#blues{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .vacansiasmall .contentform.col-md-9 .big .form-group label{
+        width: 100%;
+    }
+
+    #vacancy-update .expires-info{
+        margin-left: 0 !important;
+    }
+    .form-group.text-editor .help-block{
+        float: initial;
+        padding-top: 0;
+    }
+
+
+
+    .rezumenew .formcontainer .col-md-3{
+        display: none;
+    }
+    .rezumenew .formcontainertwo .col-md-3{
+        display: none;
+    }
+    .rezumenew .formcontainertree .col-md-3{
+        display: none;
+
+    }
+    .rezumenew .formcontainertrees .col-md-3{
+        display: none;
+    }
+    .rezumenew .formcontainerfour .col-md-3{
+        display: none;
+    }
+    .rezumenew .formcontainerfive .col-md-3{
+        display: none;
+    }
+
+    .rezumenew .container{
+        width: calc(100% - 60px);
+    }
+
+
+    .dynamic_container.education-block .dynamic_block label{
+        width: 100% !important;
+    }
+
+    .rezumenew .col-md-9 .big{
+        width: 100%;
+    }
+    .rezumenew .col-md-9 .big .form-group#bottomline select.form-control{
+        width: calc(100% - 5px) !important;
+
+    }
+    .rezumenew .col-md-9 .big .form-group input{
+        width: calc(100% - 5px) !important;
+    }
+
+    .rezumenew .col-md-9 .big .form-group#datetimepicker5 input{
+        width: calc(100% - 45px) !important;
+    }
+
+    #date_of_birth_icon{
+        margin-right: 5px;
+    }
+
+    .rezumenew .contentformtrees.col-md-9 .big .form-group label > p{
+        margin-bottom: 0;
+    }
+
+    .rezumenew .contentform.col-md-9 .big .form-group select.form-control{
+        width: calc(100% - 5px) !important;
+        background-position: right 10px center;
+    }
+    .rezumenew .contentformtwo.col-md-9 .big .form-group select.form-control{
+        width: calc(100% - 5px) !important;
+        background-position: right 10px center;
+    }
+    .rezumenew .col-md-9 .big .form-group label#back{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group label{
+        width: 100%;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group select.form-control{
+        width: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+        background-position: right 10px center;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group .coversq .dynamic_container{
+        width: 100% !important;
+        margin-left: 0;
+    }
+
+    .rezumenew .contentformtree.col-md-9 .big .form-group .dynamic_block select.form-control{
+        width: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .rezumenew .contentformtrees.col-md-9 .big .form-group select.form-control{
+        width: calc(100% - 200px) !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .rezumenew .contentformtrees.col-md-9 div#datetimepicker5{
+        width: calc(100% - 5px) !important;
+        padding-left: 0px;
+    }
+
+    .rezumenew .contentformtrees.col-md-9 .big .form-group input#date{
+        width: calc(100% - 35px) !important;
+    }
+    .rezumenew .contentformtrees.col-md-9 .big .form-group textarea{
+        width: 100%;
+        max-width: calc(100% - 5px);
+    }
+
+    .rezumenew .contentformfour.col-md-9 .big .form-group label{
+        width: 100%;
+    }
+
+    .rezumenew .contentformfour.col-md-9 .big .form-group.select-city select.form-control{
+        width: calc(100% - 5px) !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .rezumenew .contentformfour.col-md-9 .big .form-group select.form-control{
+        background-position: right 10px center !important;
+        width: calc(100% - 5px) !important;
+    }
+    .rezumenew .contentformtrees.col-md-9 .big .form-group select.form-control{
+        background-position: right 10px center;
+        width: calc(100% - 5px) !important;
+    }
+
+    .rezumenew .contentformfour.col-md-9 .big .form-group input#cashe{
+        width: calc(100% - 140px) !important;
+        padding-top: 5px;
+        margin-bottom: 0;
+    }
+    .rezumenew .contentformtrees.col-md-9 input#date + span.input-group-addon{
+
+    }
+    .rezumenew .contentformtrees.col-md-9 .big .form-group label{
+        width: 100%;
+    }
+
+    #currency_id{
+        background-position: right 10px center;
+        width: 130px !important;
+    }
+    .rezumenew .contentformfive.col-md-9 .big .form-group textarea{
+        width: 100%;
+        max-width: calc(100% - 5px) !important;
+    }
+
+    .rezumenew .contentformfive.col-md-9 .big .form-group label{
+        width: 100% !important;
+    }
+
+    .rezumenew .contentformtrees.col-md-9{
+        padding-bottom: 47px;
+    }
+    .rezumenew .contentformfive.col-md-9 .bottomline input#blues{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .rezumenew .contentformfive .form-group.about-text .file-name{
+        width: 100% !important;
+    }
+    .rezumenew .contentformfive .form-group.about-text .file-select > div{
+        width: calc(100% - 5px) !important;
+    }
+    .rezumenew .contentformfive .form-group.about-text .file-name input{
+        width: calc(100% - 5px) !important;
+    }
+
+    .rezumenew .contentformfive .form-group.about-text .file-select{
+        width: 100%;
+    }
+
+    .rezumenew .formcontainertrees .dynamic_container .form-group.has-error span{
+        margin-top: 0px;
+    }
+
+
+}
+
+
