@@ -22,6 +22,7 @@ if env_file.exists():
 SECRET_KEY = env('SECRET_KEY', default='django-insecure-default-key-replace-in-prod')
 DEBUG = env('DEBUG')
 ALLOWED_HOSTS = env('ALLOWED_HOSTS')
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # Application definition
 INSTALLED_APPS = [
