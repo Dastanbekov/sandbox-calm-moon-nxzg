@@ -8,6 +8,6 @@ export function cn(...inputs: ClassValue[]) {
 export function getImageUrl(path: string | null | undefined) {
   if (!path) return '';
   if (path.startsWith('http')) return path;
-  const baseUrl = (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000').replace(/\/api\/?$/, '');
+  const baseUrl = (typeof window !== 'undefined' ? window.location.origin : (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000')).replace(/\/api\/?$/, '');
   return `${baseUrl}${path.startsWith('/') ? path : '/' + path}`;
 }
