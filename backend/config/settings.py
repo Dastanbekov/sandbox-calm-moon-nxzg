@@ -19,7 +19,7 @@ env_file = BASE_DIR / '.env'
 if env_file.exists():
     environ.Env.read_env(str(env_file))
 
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = env('SECRET_KEY', default='django-insecure-default-key-replace-in-prod')
 DEBUG = env('DEBUG')
 ALLOWED_HOSTS = env('ALLOWED_HOSTS')
 
@@ -196,7 +196,7 @@ SIMPLE_JWT = {
     'BLACKLIST_AFTER_ROTATION': True,
     'UPDATE_LAST_LOGIN': True,
     'ALGORITHM': 'HS256',
-    'SIGNING_KEY': env('JWT_SECRET_KEY'),
+    'SIGNING_KEY': env('JWT_SECRET_KEY', default='jwt-insecure-default-key'),
     'AUTH_HEADER_TYPES': ('Bearer',),
     'USER_ID_FIELD': 'id',
     'USER_ID_CLAIM': 'user_id',
@@ -205,7 +205,7 @@ SIMPLE_JWT = {
 }
 
 # CORS & CSRF Settings
-CORS_ALLOWED_ORIGINS = env('CORS_ALLOWED_ORIGINS')
+CORS_ALLOWED_ORIGINS = env('CORS_ALLOWED_ORIGINS', default=[])
 CORS_ALLOWED_ORIGINS.extend([
     'https://employment-new.vercel.app',
     'http://localhost:3000'
@@ -215,7 +215,7 @@ CORS_ALLOW_CREDENTIALS = True
 # AI / LLM Integration
 GROQ_API_KEY = env('GROQ_API_KEY', default=None)  # Required for httpOnly JWT cookie delivery
 DEEPSEEK_API_KEY = env('DEEPSEEK_API_KEY', default=None)
-CSRF_TRUSTED_ORIGINS = env('CSRF_TRUSTED_ORIGINS')
+CSRF_TRUSTED_ORIGINS = env('CSRF_TRUSTED_ORIGINS', default=[])
 CSRF_TRUSTED_ORIGINS.extend([
     'https://*.up.railway.app',
     'https://employment-new.vercel.app',
